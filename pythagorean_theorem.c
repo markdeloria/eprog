@@ -1,20 +1,17 @@
-#include<stdio.h>
-#include<math.h>
-
-main(){
-
-
-	int a;
-	int b;
-	double c;
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	int a, b, c;
 	
-	printf("Enter value of a");
-	scanf("%d", &a);
+	printf("Enter Value for a ");
+	scanf("%f",&a);
 	
-	printf("Enter value of b");
-	scanf("%d", &b);
-	
-	c = sqrt((a^2) + (b^2));
-	printf("The value of c is %lf", c);
 
+	printf("Enter Value for b ");
+	scanf("%f",&b);
+	
+	
+	printf("%f", c = sqrt((a^2)+(b^2)));
+	
 }
