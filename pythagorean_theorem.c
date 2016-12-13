@@ -6,13 +6,13 @@ int main()
 	int a, b, c;
 	
 	printf("Enter Value for a ");
-	scanf("%f",&a);
+	scanf("%d",&a);
 	
 
 	printf("Enter Value for b ");
-	scanf("%f",&b);
+	scanf("%d",&b);
 	
 	
-	printf("%f", c = sqrt((a^2)+(b^2));
+	printf("%d", c = sqrt((a^2)+(b^2)));
 	
 }
