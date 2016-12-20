@@ -1,12 +1,14 @@
 #include<stdio.h>
 int main(){
-	int num;
-		printf("Enter Num ");
-		scanf("%d", &num);
-		if (num%3 == 0){
-			printf("Ed ");	
-		}
-		if (num%5 == 0){
-			printf("pogi");
-		}
+	int number;
+ 	
+	printf("Enter number:");
+	scanf("%d", &number);
+	if (number%3 == 0)
+		printf("Pogi");
+	if (number%5 == 0)
+		printf("Ed");
+	if(number%3 == 0 && number%5 == 0)
+		printf("Ed Pogi");
+	
 }
