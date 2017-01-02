@@ -8,5 +8,4 @@ int main(){
 		}
 	}
 	printf("%d", num);
-	printf("\nSorry Sir late. Iregalo niyo na lang to sakin Sir. Hehe. Merry Christmas. Happy New Year");
 }
